@@ -6,7 +6,7 @@
 
 	<groupId>nl.vsmeets</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.6</version>
 	<packaging>pom</packaging>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>The parent POM for all the projects under nl.vsmeets</description>
@@ -17,77 +17,7 @@
 	</organization>
 
 	<properties>
-		<enforce.requireMavenVersion>3.0</enforce.requireMavenVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
-	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>fr.brouillard.oss</groupId>
-					<artifactId>jgitver-maven-plugin</artifactId>
-					<version>1.3.0-issue_89</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-clean-plugin</artifactId>
-					<version>3.0.0</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.7.0</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-deploy-plugin</artifactId>
-					<version>2.8.2</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-enforcer-plugin</artifactId>
-					<version>3.0.0-M1</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-install-plugin</artifactId>
-					<version>2.5.2</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-jar-plugin</artifactId>
-					<version>3.0.2</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-resources-plugin</artifactId>
-					<version>3.0.2</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-site-plugin</artifactId>
-					<version>3.6</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.20.1</version>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-
-		<plugins>
-			<plugin>
-				<artifactId>maven-enforcer-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>enforce-maven</id>
-						<goals>
-							<goal>enforce</goal>
-						</goals>
-						<configuration>
-							<rules>
-								<requireMavenVersion>
-									<version>${enforce.requireMavenVersion}</version>
-								</requireMavenVersion>
-							</rules>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
