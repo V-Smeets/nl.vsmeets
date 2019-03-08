@@ -6,7 +6,7 @@
 
 	<groupId>nl.vsmeets</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.0.7</version>
+	<version>1.0.8</version>
 	<packaging>pom</packaging>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>The parent POM for all the projects under nl.vsmeets</description>
