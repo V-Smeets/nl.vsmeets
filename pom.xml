@@ -20,10 +20,10 @@
     <org.apache.maven.plugins.maven-clean-plugin.version>3.1.0</org.apache.maven.plugins.maven-clean-plugin.version>
     <!-- Minimum version 2.8 to be able to use altReleaseDeploymentRepository -->
     <org.apache.maven.plugins.maven-deploy-plugin.version>3.0.0-M1</org.apache.maven.plugins.maven-deploy-plugin.version>
-    <org.apache.maven.plugins.maven-enforcer-plugin.version>3.0.0-M2</org.apache.maven.plugins.maven-enforcer-plugin.version>
+    <org.apache.maven.plugins.maven-enforcer-plugin.version>3.0.0-M3</org.apache.maven.plugins.maven-enforcer-plugin.version>
     <org.apache.maven.plugins.maven-install-plugin.version>3.0.0-M1</org.apache.maven.plugins.maven-install-plugin.version>
-    <org.apache.maven.plugins.maven-site-plugin.version>3.7.1</org.apache.maven.plugins.maven-site-plugin.version>
-    <org.apache.maven.wagon.wagon-ssh.version>3.3.2</org.apache.maven.wagon.wagon-ssh.version>
+    <org.apache.maven.plugins.maven-site-plugin.version>3.8.2</org.apache.maven.plugins.maven-site-plugin.version>
+    <org.apache.maven.wagon.wagon-ssh.version>3.3.4</org.apache.maven.wagon.wagon-ssh.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <requireMavenVersion>3.0</requireMavenVersion>
   </properties>
