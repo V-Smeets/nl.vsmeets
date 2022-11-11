@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <!-- <parent /> -->
 
     <groupId>nl.vsmeets</groupId>
     <artifactId>parent</artifactId>
     <version>jgitver</version>
     <packaging>pom</packaging>
+
     <name>${project.groupId}:${project.artifactId}</name>
     <description>The parent POM for all the projects under nl.vsmeets</description>
-
+    <url>https://github.com/V-Smeets/nl.vsmeets</url>
+    <inceptionYear>2017</inceptionYear>
     <organization>
         <name>V. Smeets</name>
         <url>https://www.vsmeets.nl</url>
     </organization>
+    <licenses />
+
+    <developers>
+        <developer>
+            <id>V-Smeets</id>
+            <name>Vincent Smeets</name>
+            <email>Vincent.VSmeets@GMail.com</email>
+        </developer>
+    </developers>
+    <contributors />
+
+    <mailingLists />
+
+    <!-- <prerequisites /> -->
+
+    <modules />
+
+    <scm>
+        <connection>scm:git:https://github.com/V-Smeets/nl.vsmeets.git</connection>
+        <developerConnection>scm:git:https://github.com/V-Smeets/nl.vsmeets.git</developerConnection>
+        <url>https://github.com/V-Smeets/nl.vsmeets</url>
+    </scm>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/V-Smeets/nl.vsmeets/issues</url>
+    </issueManagement>
+    <ciManagement />
+    <distributionManagement />
 
     <properties>
         <org.apache.maven.plugins.maven-clean-plugin.version>3.1.0</org.apache.maven.plugins.maven-clean-plugin.version>
-        <!-- Minimum version 2.8 to be able to use altReleaseDeploymentRepository -->
         <org.apache.maven.plugins.maven-deploy-plugin.version>3.0.0-M1</org.apache.maven.plugins.maven-deploy-plugin.version>
         <org.apache.maven.plugins.maven-enforcer-plugin.version>3.0.0-M3</org.apache.maven.plugins.maven-enforcer-plugin.version>
         <org.apache.maven.plugins.maven-install-plugin.version>3.0.0-M1</org.apache.maven.plugins.maven-install-plugin.version>
@@ -26,6 +56,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <requireMavenVersion>3.0</requireMavenVersion>
     </properties>
+
+    <dependencyManagement />
+    <dependencies />
 
     <repositories>
         <repository>
@@ -49,6 +82,7 @@
             <url>https://vsmeets.nl/mvn/snapshot</url>
         </repository>
     </repositories>
+    <pluginRepositories />
 
     <build>
         <pluginManagement>
@@ -109,5 +143,9 @@
             </plugin>
         </plugins>
     </build>
+
+    <reporting />
+
+    <profiles />
 
 </project>
