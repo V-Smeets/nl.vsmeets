@@ -17,7 +17,14 @@
         <name>V. Smeets</name>
         <url>https://www.vsmeets.nl</url>
     </organization>
-    <licenses />
+    <licenses>
+        <license>
+            <name>GPL-3.0-or-later</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0-standalone.html</url>
+            <comments>GNU General Public License v3.0 or later</comments>
+            <distribution>repro</distribution>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
